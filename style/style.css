@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0 0;
+    background-color: #FFF;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+}
+.nav-item{
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: end;
+    font-size: 18px;
+    color: #3C354F;
+    font-style: normal;
+    font-weight: 500;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.fallow-icon{
+    background-color:rgba(11, 2, 35, 0.10);
+    padding: 10px 13px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.follow{
+    margin-right: 10px;
+}
+
+.fa-youtube{
+    color:#FF0000;
+    padding-left: 20px;
+}
+.fa-youtube :hover {
+    cursor: pointer;
+    color: yellow;
+}
+.fa-tiktok{
+    color: black;
+}
+.fa-tiktok :hover {
+    cursor: pointer;
+    color: #010101c6;
+}
