@@ -144,3 +144,105 @@ nav{
     width: 100%;
     height: 100%;
 }
+
+.main-title-box{
+    margin-top: 100px;
+    padding-bottom: 3rem;}
+.main-title-box h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.main-title-box p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.20rem;
+    font-weight: 400;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.card{
+    border-radius: 1rem;
+    width: 250px;
+    height: 355px;
+    text-align: start;
+}
+.card-img{
+    width: 100%;
+}
+
+.play-instantly-container{
+    max-width: 1500px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.play-instantly-container{
+    padding-left: 400px;
+}
+.play-instantly-text{
+    text-align: end;
+}
+.play-instantly-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-instantly-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight:400 ;
+    line-height: 30px;
+}
+.play-instantly-images{
+    text-align: center;
+    position: relative;
+}
+.img-one{
+    width: 80%;
+}
+.img-two{
+    width: 50%;
+}
+.play-instantly-images .img-two{
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}
+
+/* games catagory container */
+
+.games-catagori-container{
+    max-width: 1500px;
+    width: 95%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6rem;
+}
+.game-name{
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.games-catagori-container :hover{
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 50px;
+    color:goldenrod;
+}
